@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>app</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="stats">
+      <span>Shapes: <span id="shapeCount">0</span></span>
+      <span style="margin-left:20px">
+        Area: <span id="totalArea">0</span>
+      </span>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <div id="controls">
+      <div>
+        <span>Shapes/Second</span>
+        <button id="spawnMinus">-</button>
+        <button id="spawnPlus">+</button>
+      </div>
+
+      <div style="margin-top:10px">
+        <span>Gravity</span>
+        <button id="gravityMinus">-</button>
+        <button id="gravityPlus">+</button>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
